@@ -1,5 +1,64 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url(./fonts/Satoshi.ttf);
+}
+
+@font-face {
+  font-family: 'Gulax';
+  src: url(./fonts/Gulax.otf);
+}
+
+html {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Satoshi';
+}
+
+h1 {
+  font-family: 'Gulax';
+  font-size: 80px;
+  margin-top: -10px;
+}
+
+h2 {
+  text-align: left;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+}
+
+#about-text {
+  width: 70%;
+  margin-right: 30px;
+
+}
+
+#about-photo {
+  width: 500px;
+  height: auto;
+}
+
+#travel {
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -36,3 +95,4 @@
     transform: rotate(360deg);
   }
 }
+
